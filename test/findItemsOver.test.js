@@ -1,6 +1,16 @@
 import assert from "assert"
 import findItemsOver from "../findItemsOver.js"
 
+var results = [
+    {name : 'pears', qty : 37},
+    {name : 'bananas', qty : 27}
+];
+  var results2 = [];
+  var results3 = [
+    {name : 'apples', qty : 40},
+    {name : 'bananas', qty : 23},
+    {name : 'apples', qty : 37}
+];
 describe("The findItemOver function" , function(){
     it("should return products of the results that have quantity higher than the threshold", function(){
         assert.deepEqual([], findItemsOver(results2, 20));
@@ -15,4 +25,4 @@ describe("The findItemOver function" , function(){
     
     
     });
-  
+    

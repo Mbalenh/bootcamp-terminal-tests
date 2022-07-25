@@ -15,7 +15,7 @@ it("shouldreturn the total of the regNum that startsWith('CJ')", function(){
     assert.equal(0, countAllPaarl('CK 345 123, CK 345, CK 123'));
 });
 it("should  return the total of the regNum that startsWith('CJ')", function(){
-    assert.equal(0, countAllPaarl(0) );
+    assert.equal(0, countAllPaarl("NUZ 10") );
 });
 
 

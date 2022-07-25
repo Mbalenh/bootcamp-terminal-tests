@@ -13,9 +13,9 @@ describe("The regCheck function", function(){
         assert.equal(regCheck('5566 L', 'M'), false);
     });
     it("should return false if the regNums is empty" , function(){
-        assert.equal(isFromBellville(''), false)
+        assert.equal(regCheck(''), false)
     });
     it("should return false if the regNums  does not have regEnd " , function(){
-        assert.equal(isFromBellville('ND 123-456'), false)
+        assert.equal(regCheck('ND 123-456'), false)
     });
 });
