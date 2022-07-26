@@ -2,7 +2,7 @@ import assert from "assert"
 import isFromBellville from "../isFromBellville.js"
 
 describe("The isFromBellville function", function(){
-    it("should  return true .if the regNums.startsWith('CY')" , function(){
+    it("should  return true .if the regNums.startsWith('CY') from Bellville" , function(){
         assert.equal(isFromBellville('CY 123'), true)
     });
     it(" should return true ifThe registration number from Bellville startsWith('CY')" , function(){
