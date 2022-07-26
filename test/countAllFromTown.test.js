@@ -11,7 +11,7 @@ describe("The countAllFromTown function" , function(){
     it("It should return 3 registrations from CA if there are three registration numbers from cape town", function(){
         assert.equal(1, countAllFromTown('CA 345 123, CJ 345, CJ 123','CA'));
     });
-    it("It should return 0 registrations from CJ if there are three registration numbers from Cj", function(){
+    it("It should return 0 registrations from CJ if there are no registration numbers from Cj", function(){
         assert.equal(0, countAllFromTown('CK 345 123, CK 345, CK 123','CJ'));
     });
    });
